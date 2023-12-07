@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
@@ -112,16 +112,6 @@ namespace ConsoleTest
             }
         }
 
-        public static void CopyDesignative(string path, string copyPath)
-        {
-            try
-            {
-                
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-        }
+        //public static void CopyDesignative(string path, string copyPath)
     }
 }
